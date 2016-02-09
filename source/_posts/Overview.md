@@ -27,8 +27,7 @@ iOS 作为iOS应用软件（App）和硬件设备间的中间层提供了一组�
 iOS操作系统提供的框架分为4层。
 
 
-![iOS分层结构](/images/SystemLayers.png)
-
+{% image /images/SystemLayers.png 500 "iOS分层结构" %}
 
 #### Cocoa Touch层
 
