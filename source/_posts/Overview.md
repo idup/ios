@@ -1,10 +1,9 @@
-title: 概述
+title: iOS技术概述
 date: 2016-02-09 15:00:52
 tags:
 ---
 
 
-### iOS 操作系统
 
 iOS是一个苹果公司开发的运行于iPhone、iPad和iPod Touch等移动设备上的操作系统.当前最新版本是iOS 9.
 
