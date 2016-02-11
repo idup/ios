@@ -47,3 +47,84 @@ func application(application: UIApplication, didFinishLaunchingWithOptions launc
 3. 再通过视图对象引用（Outlet）操纵视图内容
 
 {% image /images/controller_data_transfer.png 300 "数据传送" %}
+
+### 多控制器（界面）设计
+
+iOS设备是移动设备，屏幕空间非常有限（哪怕是iPad pro），应用一般会有比较丰富的信息需要显示，但屏幕不能一次性显示所有内容，因此在用户与应用交互开始时应用仅会显示部分内容，并在以后过程中不断显示或隐藏其他内容，在此过程中视图控制器提供设施实现这一内容显示／隐藏的协同过程。通过不同控制器和对应的视图对应用进行分割，整个应用的用户界面被以较小的单位进行管理。如下图所示，每个视图由一个控制器管理，视图控制器相互通信实现这些分隔视图的切换过程，每个视图控制器操作应用的部分数据。
+
+{% image /images/controller_multiple_views.png "分割的界面" %}
+
+### 控制器分类
+控制器可分为两类：内容视图控制器（Content View Controller）和容器视图控制器（Container View Controller）。
+
+#### 内容视图控制器
+
+内容视图控制器负责显示可视内容，包括将数据展示给用户，从用户处收集数据和执行特定操作等。例如下图所示的表视图控制器
+
+
+
+{% image /images/controller_tableviewcontroller.png  300 "表视图控制器" %}
+
+
+#### 容器视图控制器
+容器视图控制器负责组织内容控制器，它包含其他视图控制器所管理的内容，被管理的视图控制器被显式地指定为容器视图控制器的子控制器。容器控制器可嵌套：它可作为其他容器控制器的子控制器，也可作为其他控制器的父控制器，通过这种形式控制器可形成层次结构（但跟视图层次不对应）。例如下图所示导航控制器
+
+{% image /images/controller_navigationcontroller.png  400 "导航控制器" %}
+
+以及iPad应用中常见的分栏视图控制器，如下图。
+
+
+{% image /images/controller_splitviewcontroller.png  300 "分栏视图控制器" %}
+
+### 控制器内容（视图）显示
+有多种方式可以通过控制器显示其相应的视图
+
+- 将某个控制器作为窗口对象的根视图控制器（上节已介绍）
+- 将视图控制器作为加入一个容器控制器
+- 让另一个控制器将其呈现（present）出来
+
+#### 作为根视图控制器
+
+{% image /images/controller_rootviewcontroller.png  300 "作为根视图控制器" %}
+
+
+#### 使用容器控制器为根视图控制器
+
+{% image /images/controller_container.png  400 "使用容器控制器为根视图控制器" %}
+
+
+#### 由另一个控制器将其呈现（present）
+
+
+{% image /images/controller_present.png  500 "由另一个控制器将其呈现" %}
+
+
+#### 更复杂的情况
+
+{% image /images/controller_complex.png  500 "复杂情况" %}
+
+
+#### 用StoryBoard定义
+
+StoryBoard中一个场景（scene）代表在屏幕上显示的由一个控制器管理的内容区域，即一个视图控制器即其所管理的视图层次。可在同一个Storyboard中的两个场景间建立一个关系，如下图所示。
+
+{% image /images/controller_scenes.png  "场景关系" %}
+
+其中的关系包括
+
+- 包容关系（Containment）：两个场景的父子关系，前者一般对应一个容器控制器
+- 延续关系（Segue）：从一个场景到另一个场景的转换（迁移），包括以下类型
+ - Push segue：将目标视图控制器压入导航控制器所管理的控制器栈中(如下图所示)
+ - Modal segue: 将目标视图控制器呈现出来
+ - Popover segue: 将目标视图控制器在一个弹出窗口（popover）中显示出来
+ - Custom segue: 允许你自行设计所需的展示目标视图控制器的切换过程
+
+{% image /images/controller_segue.png  300 "Push Segue" %}
+
+
+
+注：本部分内容主要参考文献为[View Controller Programming Guide for iOS](https://developer.apple.com/library/ios/featuredarticles/ViewControllerPGforiPhoneOS/Introduction/Introduction.html)。请对照[Start Developing iOS Apps (Swift) - Connect the UI to Code](https://developer.apple.com/library/ios/referencelibrary/GettingStarted/DevelopiOSAppsSwift/Lesson3.html) 和[Start Developing iOS Apps (Swift) - Work with View Controllers](https://developer.apple.com/library/ios/referencelibrary/GettingStarted/DevelopiOSAppsSwift/Lesson4.html)进行实践。
+
+
+
+
