@@ -33,11 +33,11 @@ UIKit中定义的UIView的子类（系统预定义的视图和控件）详见 [U
 
 视图可以使用Interface Builder来创建。如下图所示。
 
-{% image /images/ib_view.png 500 "视图创建" %}
+{% image /images/ib_view.png  "视图创建" %}
 
 也可以在Interface Builder中创建视图层次。如下图所示。
 
-{% image /images/ib_view_hierarchy.png 500 "视图层次创建" %}
+{% image /images/ib_view_hierarchy.png  "视图层次创建" %}
 
 
 其中工具栏的Inspector上可对视图的诸多属性进行设置，包括：
@@ -101,7 +101,7 @@ override func loadView(){
 func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObjects]?) -> Bool {
 	self.window = UIWindow(frame:UIScreen.mainScreen().bounds)
 	self.window!.rootViewController = ViewController()
-	self.window~.makeKeyAndVisible()
+	self.window!.makeKeyAndVisible()
 	return true
 }
 ```
