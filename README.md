@@ -2,15 +2,15 @@
 
 ## 环境准备
 
-[ios-app 网站](http://ios-app.idup.club)由[hexo](http://hexo.io) 生成，请使用`npm install hexo-cli -g`命令安装hexo环境（npm的安装可使用brew，brew的安装请自行解决）
+[ios 网站](http://ios.idup.club)由[hexo](http://hexo.io) 生成，请使用`npm install hexo-cli -g`命令安装hexo环境（npm的安装可使用brew，brew的安装请自行解决）
 
 ## 从github获取既有代码
 
-`git clone https://github.com/idup/ios-app`
+`git clone https://github.com/idup/ios`
 
-## 安装ios-app hexo工程依赖包
+## 安装ios hexo工程依赖包
 
-`cd ios-app`
+`cd ios`
 
 `npm install`
 
@@ -24,4 +24,4 @@
 
 ## 提交更新内容
 
-按git流程提交对ios-app的hexo内容所做修改（`git add .` -> `git commit -a` -> `git push origin master`），在此之前，当然你需要授权，请联系 [admin@idup.club](mailto:admin@idup.club)。
+按git流程提交对ios的hexo内容所做修改（`git add .` -> `git commit -a` -> `git push origin master`），在此之前，当然你需要授权，请联系 [ios@idup.club](mailto:ios@idup.club)。
