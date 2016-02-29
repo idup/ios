@@ -7,7 +7,7 @@ Xcode 概述
 
 
 # Xcode 概述 Overview
-## Xcode 概要（[Xcode Essentials]([https://developer.apple.com/library/ios/documentation/ToolsLanguages/Conceptual/Xcode_Overview/index.html#//apple_ref/doc/uid/TP40010215-CH24-SW1]))
+## Xcode 概要（[Xcode Essentials](https://developer.apple.com/library/ios/documentation/ToolsLanguages/Conceptual/Xcode_Overview/index.html#//apple_ref/doc/uid/TP40010215-CH24-SW1]))
 
 ***
 
