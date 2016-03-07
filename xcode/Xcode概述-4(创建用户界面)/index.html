@@ -1,0 +1,117 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta http-equiv="content-type" content="text/html; charset=utf-8"><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport"><meta content="yes" name="apple-mobile-web-app-capable"><meta content="black-translucent" name="apple-mobile-web-app-status-bar-style"><meta content="telephone=no" name="format-detection"><meta name="description"><title>Xcode 创建用户界面 | iOS应用开发</title><link rel="stylesheet" type="text/css" href="/css/normalize.css?v=0.0.0"><link rel="stylesheet" type="text/css" href="/css/pure-min.css?v=0.0.0"><link rel="stylesheet" type="text/css" href="/css/grids-responsive-min.css?v=0.0.0"><link rel="stylesheet" type="text/css" href="/css/style.css?v=0.0.0"><link rel="stylesheet" href="//cdn.bootcss.com/font-awesome/4.5.0/css/font-awesome.min.css"><link rel="Shortcut Icon" type="image/x-icon" href="/favicon.ico"><link rel="apple-touch-icon" href="/apple-touch-icon.png"><link rel="apple-touch-icon-precomposed" href="/apple-touch-icon.png"><link rel="alternate" type="application/atom+xml" href="/atom.xml"></head><body><div class="body_container"><div id="header"><div class="site-name"><h1 class="hidden">Xcode 创建用户界面</h1><a id="logo" href="/.">iOS应用开发</a><p class="description">学习iOS App开发</p></div><div id="nav-menu"><a href="/." class="current"><i class="fa fa-home"> 首页</i></a><a href="/about/"><i class="fa fa-user"> 关于</i></a><a href="/atom.xml"><i class="fa fa-rss"> 订阅</i></a></div></div><div id="layout" class="pure-g"><div class="pure-u-1 pure-u-md-3-4"><div class="content_container"><div class="post"><h1 class="post-title">Xcode 创建用户界面</h1><div class="post-meta">Oct 3, 2015<span> | </span><span class="category"><a href="/categories/xcode概述/">xcode概述</a></span><script src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js" async></script><span id="busuanzi_container_page_pv"> | <span id="busuanzi_value_page_pv"></span><span> Hits</span></span></div><div class="post-content"><p>Xcode 概述<br><a id="more"></a></p>
+<h2 id="构建用户界面-Building-a-User-Interface"><a href="#构建用户界面-Building-a-User-Interface" class="headerlink" title="构建用户界面 Building a User Interface"></a>构建用户界面 <a href="https://developer.apple.com/library/mac/documentation/ToolsLanguages/Conceptual/Xcode_Overview/UsingInterfaceBuilder.html#//apple_ref/doc/uid/TP40010215-CH42-SW1" target="_blank" rel="external">Building a User Interface</a></h2><hr>
+<h3 id="使用Interface-Builder-Using-Interface-Builder"><a href="#使用Interface-Builder-Using-Interface-Builder" class="headerlink" title="使用Interface Builder Using Interface Builder"></a>使用Interface Builder <a href="https://developer.apple.com/library/mac/documentation/ToolsLanguages/Conceptual/Xcode_Overview/UsingInterfaceBuilder.html#//apple_ref/doc/uid/TP40010215-CH42-SW1" target="_blank" rel="external">Using Interface Builder</a></h3><hr>
+<p>开发者可使用Interface Builder创建应用程序的用户界面。在工程导航器中打开一个界面文件，文件内容会在工作区窗口的编辑区域的Interface Builder中打开。用户界面文件的扩展名为.storyboard或.xib，xib文件通常会指定一个视图控制器或菜单栏，storyboard文件则指定了一系列视图控制器及其跳转关系。与xib不同，storyboard可以包含用户界面所有的视觉元素。当你使用Xcode内建的模板创建新工程时，会提供一个默认的用户界面文件。</p>
+<p><img src="/images/xcode4_1.png" alt="xcode4_1"></p>
+<p>code以 XML格式储存xib和storyboard文件内容。编译时，Xcode将xib和storyboard文件编译成二进制文件，即nib文件。运行时，nib文件会被载入并实例化来创建新的视图。</p>
+<p>想要添加用户界面元素，可从实用工具区将元素拖放至Interface Builder画布上，你可以在此对齐元素，为其设置属性，以及为元素之间和源码文件中的代码建立联系。在Interface Builder中布局好界面所需元素后，你可以在辅助编辑器中编写代码实现其行为。</p>
+<p><img src="/images/xcode4_2.png" alt="xcode4_2"></p>
+<h4 id="IB的组成部分-Parts-of-Interface-Builder"><a href="#IB的组成部分-Parts-of-Interface-Builder" class="headerlink" title="IB的组成部分 Parts of Interface Builder"></a>IB的组成部分 <em>Parts of Interface Builder</em></h4><hr>
+<p>Interface Builder有两个主要区域，左边的dock栏和右边的canvas。dock栏列出了用户界面文件包含的对象，canvas用于对app用户界面中的对象进行布局。</p>
+<p><img src="/images/xcode4_3.png" alt="xcode4_3"></p>
+<p>dock栏中的大纲视图展示了更高级别对象中嵌入的对象。</p>
+<p><img src="/images/xcode4_4.png" alt="xcode4_4"></p>
+<p>对于xib文件，你可以点击Interface builder左下角的Show Document Outline按钮(DockViewControl)，从而以icon视图形式展示高级对象，而不是大纲视图。</p>
+<p><img src="/images/xcode4_5.png" alt="xcode4_5"></p>
+<p>对于storyboard文件，大纲视图的顶级项目对应画布上的顶级视图控制器或场景。隐藏大纲视图后，Storyboard文件则不会展示icon视图。Storyboard上的每个场景在画布上都有一个对应的高级对象视图，如下图所示，icon视图中的项目从左到右依次对应场景、场景中的first responder以及该场景的退出segue。更多信息详见Design the User Interface of Your App with Storyboards.</p>
+<p><img src="/images/xcode4_6.png" alt="xcode4_6"></p>
+<h4 id="添加界面对象-Adding-Interface-Objects"><a href="#添加界面对象-Adding-Interface-Objects" class="headerlink" title="添加界面对象 Adding Interface Objects"></a>添加界面对象 <em>Adding Interface Objects</em></h4><hr>
+<p>要往用户界面中添加内容，先点击工作区窗口中工具栏的按钮打开实用工具区，然后点击工具库栏中的按钮调出对象库，然后选择一个对象拖入到视图中，在下图中，我们从对象库中拖放一个视图控制器到画布上。</p>
+<p><img src="/images/xcode4_7.png" alt="xcode4_7"></p>
+<p>添加对象后，你可以拖住其边角来改变其大小。移动对象时，会出现一些蓝色虚线来帮助你定位和布局对象。在对象库栏上方是Interface Builder检查器，你可以用它设置对象外观和行为，在下图中，我们用属性检查器（Attributes Inspector）按钮(AttributesInspectorSelected)指定按钮的自定义类型</p>
+<p><img src="/images/xcode4_8.png" alt="xcode4_8"></p>
+<h4 id="查找和替代字符串Finding-and-Replacing-Strings"><a href="#查找和替代字符串Finding-and-Replacing-Strings" class="headerlink" title="查找和替代字符串Finding and Replacing Strings"></a>查找和替代字符串<em>Finding and Replacing Strings</em></h4><hr>
+<h3 id="使用storyboard来设计应用的界面-Designing-with-Storyboards"><a href="#使用storyboard来设计应用的界面-Designing-with-Storyboards" class="headerlink" title="使用storyboard来设计应用的界面 Designing with Storyboards"></a>使用storyboard来设计应用的界面 <a href="https://developer.apple.com/library/mac/documentation/ToolsLanguages/Conceptual/Xcode_Overview/DesigningwithStoryboards.html#//apple_ref/doc/uid/TP40010215-CH43-SW1" target="_blank" rel="external">Designing with Storyboards</a></h3><hr>
+<p>您可以使用storyboard来可视化地布局用户在iOS或Mac 应用中的路径，使用Interface Builder按照下述内容指定用户界面：</p>
+<ul>
+<li>场景</li>
+<li>场景间切换</li>
+<li>触发场景切换的控件</li>
+</ul>
+<p>场景表示屏上内容区域。在iPhone或iPod touch上面，一个屏幕通常只包含一个场景。在iPad或Mac上面，一个屏幕可以由一个以上的场景组成。Segue表示一个场景到另一个场景的切换。</p>
+<p>下图表示了使用Xcode 的Master-Detail应用模板创建iOS项目时所提供的默认storyboard，它包含三个场景和两个segue。最左边的场景是一个导航控制器，用于管理用户在主界面和详细页间的导航。使用这个模板时，你可以按需从对象库中添加额外的视图控制器，并使用Identity inspector配置拖放到画布中的视图控制器。</p>
+<p>从对象库中拖放对象到每个场景中，并使用Attributes inspector配置对象和界面之间的切换。</p>
+<p><img src="/images/xcode4_9.png" alt="xcode4_9"></p>
+<p>你的主视图可能包含一个表格，表格中有多个条目，每一个条都有一个对应的详情场景来提供条目的具体信息。导航控制器提供了返回到主视图的返回按钮.</p>
+<p><img src="/images/xcode4_10.png" alt="xcode4_10"></p>
+<h3 id="连接代码和界面对象-Connecting-Objects-to-Code"><a href="#连接代码和界面对象-Connecting-Objects-to-Code" class="headerlink" title="连接代码和界面对象 Connecting Objects to Code"></a>连接代码和界面对象 <a href="https://developer.apple.com/library/mac/documentation/ToolsLanguages/Conceptual/Xcode_Overview/ConnectingObjectstoCode.html#//apple_ref/doc/uid/TP40010215-CH44-SW1" target="_blank" rel="external">Connecting Objects to Code</a></h3><hr>
+<p>通过编写代码来实现界面对象的行为。代码通过动作和outlet连接来与界面对象沟通。</p>
+<p>创建一个动作连接，控件就可以给代码发送消息了。控件是一种用户操作时产生即时动作或视觉效果的界面元素。例如，当用户点击一个按钮时，按钮会给代码发送一个动作消息来执行相应的动作。文本框、滑动条和开关都是iOS中常用的控件；复选框、滚动条以及文本框是Mac OS中常用的控件。</p>
+<p>当您需要从代码给界面对象发送消息时，可创建一个outlet连接。对象可以是控件，也可以是storyboard 或 xib文件中定义的其他对象，例如一个标签、进度指示器或是地图视图。如果代码决定一个按钮需要消失，那么代码可以通过outlet发送消息告知按钮应当隐藏。</p>
+<h4 id="通过控制器给代码发送消息-Sending-Action-Messages-from-a-Control-to-Your-Code"><a href="#通过控制器给代码发送消息-Sending-Action-Messages-from-a-Control-to-Your-Code" class="headerlink" title="通过控制器给代码发送消息 Sending Action Messages from a Control to Your Code"></a>通过控制器给代码发送消息 <em>Sending Action Messages from a Control to Your Code</em></h4><p>当用户点击控件并与之进行交互时，控件就会给代码发送消息来执行特定的动作。配置控件给代码发送动作信息的最简单方式是按下Control键，并用鼠标从Interface Builder中将控件拖到工程的执行文件中。</p>
+<p>当Interface Builder在标准编辑器面板中打开时，选中你想要配置的控件，并点击辅助编辑器按钮打开项目的实现文件。</p>
+<p>按下Control键，并用鼠标从Interface Builder中将控件拖到工程的执行文件中（图中辅助编辑器展示了Warrior按钮的视图控制器的执行文件），Xcode会提示你在代码的哪个位置插入动作方法。</p>
+<p><img src="/images/xcode4_11.png" alt="xcode4_11"></p>
+<p>松开鼠标后，辅助编辑器会弹出一个Connection菜单，你可以输入动作方法的名称（下图中方法名称为chooseWarrior），然后点击连接。</p>
+<p><img src="/images/xcode4_12.png" alt="xcode4_12"></p>
+<p>在实现文件里，Xcode为新方法插入了一个骨骼动画定义，如下所示。IBAction返回类型是一个特殊的关键字，表示这个实例方法可以连接到storyboard或xib文件。Xcode同时会配置控件，从而在选中事件发生时调用该方法。因此，只要控件收到一个动作信息，这个方法就会被调用。</p>
+<p><img src="/images/xcode4_13.png" alt="xcode4_13"></p>
+<p>在这个骨骼动画定义中，你可以添加动作方法的源码。控件由系统激活，不过由你实现其行为。你在下面的图片中，当用户点击Warrior按钮时，这个动作方法会启动一个新游戏。</p>
+<p><img src="/images/xcode4_14.png" alt="xcode4_14"></p>
+<h4 id="通过Outlet给界面元素发送消息-Sending-Messages-to-a-User-Interface-Object-Through-an-Outlet"><a href="#通过Outlet给界面元素发送消息-Sending-Messages-to-a-User-Interface-Object-Through-an-Outlet" class="headerlink" title="通过Outlet给界面元素发送消息 Sending Messages to a User Interface Object Through an Outlet"></a>通过Outlet给界面元素发送消息 <em>Sending Messages to a User Interface Object Through an Outlet</em></h4><hr>
+<p>要通过代码给用户界面元素发送消息（比如通知标签展示文本字符串，通知按钮展示或者隐藏），你需要将界面元素和代码中的Outlet连接起来。最简单的方法是Control-点击-拖动画布上的UI对象到实现文件或头文件中。例如，要在试图控制器中创建一个outlet，并将其和按钮连接，你需要按下Control键并拖动IB中的按钮，将其放到辅助编辑器中视图控制器的实现文件中。Xcode会提示你在哪里插入是合适。</p>
+<p><img src="/images/xcode4_15.png" alt="xcode4_15"></p>
+<p>释放Control拖动后，辅助编辑器会显示一个Connection菜单，选择Outlet，然后输入Outlet的名字（下图中Outlet的名字是warriorButton），点击Connect即可。</p>
+<p><img src="/images/xcode4_16.png" alt="xcode4_16"></p>
+<p>Interface Builder会将Outlet的声明添加到类中（Outlet被定义为IBOutlet属性，IBOutlet关键字会告知Xcode该属性可以被连接到storyboard或xib文件中）</p>
+<p><img src="/images/xcode4_17.png" alt="xcode4_17"></p>
+<h3 id="适应不同的屏幕大小-Building-for-Multiple-Screen-Sizes"><a href="#适应不同的屏幕大小-Building-for-Multiple-Screen-Sizes" class="headerlink" title="适应不同的屏幕大小 Building for Multiple Screen Sizes"></a>适应不同的屏幕大小 <a href="https://developer.apple.com/library/mac/documentation/ToolsLanguages/Conceptual/Xcode_Overview/BuildingforMultipleScreenSizes.html#//apple_ref/doc/uid/TP40010215-CH45-SW1" target="_blank" rel="external">Building for Multiple Screen Sizes</a></h3><h4 id="使用Size-Classes类来适应不同的屏幕尺寸和设备持有方向-Using-Size-Classes"><a href="#使用Size-Classes类来适应不同的屏幕尺寸和设备持有方向-Using-Size-Classes" class="headerlink" title="使用Size Classes类来适应不同的屏幕尺寸和设备持有方向 Using Size Classes"></a>使用Size Classes类来适应不同的屏幕尺寸和设备持有方向 <em>Using Size Classes</em></h4><p>Size Classes 可以让你用一个storyboard来应对不同尺寸的屏幕。你需要建立一个界面，使得它可以在多数设备上运行，当屏幕大小改变时，只需更改需要变化的对象即可。</p>
+<p>Size Classes会规定高和宽的一个相对的显示空间大小，这个大小可以是compact（紧凑型）或regular（常规型）。一般来说，iPhone竖屏时宽度是compact，横屏时高度是compact。iPhone竖屏时高度是regular，对于iPad，宽和高都是regular。具体的点数并不重要，相对的空间是重要的。</p>
+<p>因为多数界面的显示对compact或regular选择都是一样的，因此还有一个额外的size class –any。你可以把compact和regular下一样的界面设为any，对于那些需要改变的再另外指出。Size Classes已知属性包括：</p>
+<ul>
+<li>约束的常量</li>
+<li>表明视图层次是否包含约束的布尔值</li>
+<li>文本标签、文本域、文本视图或者按钮上的字体。</li>
+</ul>
+<p>改变这些属性会导致界面的变化：</p>
+<ul>
+<li>改变视图的大小或位置</li>
+<li>添加或删除视图</li>
+<li>添加或删除约束</li>
+<li>改变文本标签、文本域、文本视图或者按钮上的字体。</li>
+</ul>
+<p>需要注意的是，如果一个视图或布局约束在当前的size class下是不可用状态，也就是没有被装载到当前的size class中，这并不意味着该视图和布局约束的实例不存在，而是在它们出现时就已经被实例化了。无论哪种size class引用该视图或布局约束都会得到一个有效的对象。Xcode中的视图对象（不论是按钮还是图片，它们都是视图对象）都不会在界面层面有父视图对象，所以如果你卸载了一个视图，那么Xcode会相应的卸载掉与该视图相关的所有布局约束。</p>
+<p>要为你的storyboard启用size classes，需要先在项目导航器中选中storyboard文件，然后在canvas面板的文件查看器那一栏的Use Size Classes复选框上打对勾。Xcode会询问你是否转换文件。打开size classes的同时会开启Auto Layout。</p>
+<p><img src="/images/xcode4_18.png" alt="xcode4_18"></p>
+<p>启用size classes后，Xcode将以正方形在画布上展示所有顶层视图控制器。画布底部中心位置还有一个size classes的控件，该控件显示了当前size classes的宽高设置。在该示例中，它是any/any.</p>
+<p><img src="/images/xcode4_19.png" alt="xcode4_19"></p>
+<p>如果要更改size classes，可点击下面的size classes控件，在弹出的菜单中移动鼠标，直到选中你想要的size classes为止。</p>
+<p><img src="/images/xcode4_20.png" alt="xcode4_20"></p>
+<p>当你对size classes做出调整后，试图控制器的大小会相应改变，同时底栏也会变成蓝色，以提示你不在any/any的模式。</p>
+<p><img src="/images/xcode4_21.png" alt="xcode4_21"></p>
+<p>你在一个特定size class中对约束、视图和字体做出的更改都仅限于该s类。要删除一个约束或视图，请选中它然后按下Command+Delete组合键。关闭一个视图后，你往往希望关闭与它相关的所有约束。</p>
+<h4 id="界面元素布局的自动调整和定位-Using-Auto-Layout-for-Automatic-Resizing-and-Positioning"><a href="#界面元素布局的自动调整和定位-Using-Auto-Layout-for-Automatic-Resizing-and-Positioning" class="headerlink" title="界面元素布局的自动调整和定位 Using Auto Layout for Automatic Resizing and Positioning"></a>界面元素布局的自动调整和定位 <em>Using Auto Layout for Automatic Resizing and Positioning</em></h4><p>自动布局可以帮你适应不同的窗口尺寸、屏幕尺寸以及设备持有方向。您可以通过给视图对象添加关系约束来实现。例如，你可以将一个图像在 storyboard场景中水平居中，当用户旋转设备时，图像会自动在新的布局中保持水平居中。</p>
+<p>通过Auto Layout 约束来管理布局，界面中的元素会在以下情形中自动改变大小和位置：</p>
+<ul>
+<li>用户改变了设备朝向</li>
+<li>用户在Mac应用中改变了窗口大小</li>
+<li>内容尺寸改变（例如字符串长度改变）</li>
+</ul>
+<p>按下Control键并在两个界面对象间进行拖动，Interface Builder会弹出一个适当的约束列表，从列表中选择其中一项即可为项目添加约束。下图展示了从主logo视图拖放对象至控制器主视图的结果。弹出菜单显示了image view与容器间的两种约束选项。”Top Space to Container”是指图像视图与容器顶部之间的高度约束，另外一个约束定义了容器中图像水平居中。</p>
+<p><img src="/images/xcode4_22.png" alt="xcode4_22"></p>
+<p>要查看一个对象的限制，可从大纲视图中选中该对象，或者在画布上选中该对象，出现的绿色实线则代表对象的约束，你可以点击尺寸查看器来查看约束列表。<br><img src="/images/xcode4_23.png" alt="xcode4_23"></p>
+<p>约束部分顶部形象化地展示了选中对象的约束类型，每条水平或者竖直的绿色实线表示一条或多条该类型约束。选择一条或多条实线可以筛选出符合该类型的约束列表。</p>
+<p><img src="/images/xcode4_24.png" alt="xcode4_24"></p>
+<p>你可以在画布上选中约束，或者在Size inspector中双击约束来查看和编辑约束，再或者可以双击约束调出弹出编辑器来更改最常用的约束属性。</p>
+<p><img src="/images/xcode4_25.png" alt="xcode4_25"></p>
+<p>还有更多的方法可以添加和编辑约束，包括使用底栏的按钮<br><img src="/images/xcode4_26.png" alt="xcode4_26"></p>
+<h3 id="查看对象的文档-Viewing-Object-Documentation"><a href="#查看对象的文档-Viewing-Object-Documentation" class="headerlink" title="查看对象的文档 Viewing Object Documentation"></a>查看对象的文档 <a href="https://developer.apple.com/library/mac/documentation/ToolsLanguages/Conceptual/Xcode_Overview/LookingupObjectDocumentation.html#//apple_ref/doc/uid/TP40010215-CH46-SW1" target="_blank" rel="external">Viewing Object Documentation</a></h3><hr>
+<p>您可以在Interface Builder中查看界面对象简略的类参考文档，而无需离开Interface Builder。</p>
+<p>在文件打开的状态，点击按钮打开实用工具区，然后在检查器一栏选中Quick Help按钮。然后在Interface Builder点击你想要的对象的信息，文档会出现在工具区的检查器窗口中。</p>
+<p><img src="/images/xcode4_27.png" alt="xcode4_27"></p>
+<p>如果要查看完整的详细文档，你需要点击 Quick Help中参考文档的标题，详细的参考文档会在新的文档查看窗口中打开。你还可以查看相应的编程指南、示例代码和其他相关文档。</p>
+<p>如果要查看设置选项的更多信息，你需要将鼠标移动到该选项的上面，然后就会弹出一个帮助标签。</p>
+<p><img src="/images/xcode4_28.png" alt="xcode4_28"></p>
+<h2 id="预览您的用户界面-Previewing-Your-User-Interface"><a href="#预览您的用户界面-Previewing-Your-User-Interface" class="headerlink" title="预览您的用户界面 Previewing Your User Interface"></a>预览您的用户界面 <a href="https://developer.apple.com/library/mac/documentation/ToolsLanguages/Conceptual/Xcode_Overview/PreviewingYourUserInterface.html#//apple_ref/doc/uid/TP40010215-CH47-SW1" target="_blank" rel="external">Previewing Your User Interface</a></h2><hr>
+<p>使用内置的预览辅助编辑器可以预览您的用户界面在不同设备和使用不同语言，而不用编译您的应用程序。</p>
+<p><img src="/images/xcode4_29.png" alt="xcode4_29"></p>
+<h2 id="创建和绘制自定义的视图类-Creating-and-Rendering-Custom-View-Classes"><a href="#创建和绘制自定义的视图类-Creating-and-Rendering-Custom-View-Classes" class="headerlink" title="创建和绘制自定义的视图类 Creating and Rendering Custom View Classes"></a>创建和绘制自定义的视图类 <a href="https://developer.apple.com/library/mac/documentation/ToolsLanguages/Conceptual/Xcode_Overview/CreatingandRenderingCustomViewClasses.html#//apple_ref/doc/uid/TP40010215-CH48-SW1" target="_blank" rel="external">Creating and Rendering Custom View Classes</a></h2><hr>
+<p>你可以把自定义的视图类在设计时使用在界面生成器。您还可以添加属性的自定义视图类属性检查器。</p>
+<p><img src="/images/xcode4_30.png" alt="xcode4_30"></p>
+<h2 id="使用Interface-Builder获得帮助-Finding-Help-for-Interface-Builder"><a href="#使用Interface-Builder获得帮助-Finding-Help-for-Interface-Builder" class="headerlink" title="使用Interface Builder获得帮助 Finding Help for Interface Builder"></a>使用Interface Builder获得帮助 <a href="https://developer.apple.com/library/mac/documentation/ToolsLanguages/Conceptual/Xcode_Overview/FindingHelpforInterfaceBuilder.html#//apple_ref/doc/uid/TP40010215-CH49-SW1" target="_blank" rel="external">Finding Help for Interface Builder</a></h2><hr>
+<p>Xcode中提供了Interface Builder常见操作的详细步骤帮助。在Interface Builder画布中任意位置按住Control然后点击鼠标，就会出现一个菜单，里面列出了常用操作，选择 Show All Help Topics 就可以显示源码编辑器的所有帮助文章。</p>
+<p><img src="/images/xcode4_31.png" alt="xcode4_31"></p>
+<p>因为Control-click这个操作在Interface Builder中用来创建连接，因此你必须在画布上执行Control点击来调出包含帮助文章列表的快捷菜单，而不是点击用户界面中的任意对象。</p>
+<p>选中一个主题，帮助文章就会显示在Xcode文档查看器中。</p>
+<p><img src="/images/xcode4_32.png" alt="xcode4_32"></p>
+</div><a data-url="http://ios.idup.club/xcode/Xcode概述-4(创建用户界面)/" data-id="cili4cwio001ulrcg81fgblqi" class="article-share-link">分享到</a><div class="tags"></div><div class="post-nav"><a href="/xcode/Xcode概述-3(编写代码)/" class="pre">Xcode 编写代码</a><a href="/xcode/Xcode概述-5(添加资源)/" class="next">Xcode 添加资源</a></div></div></div></div><div class="pure-u-1-4"><div id="sidebar"><div class="widget"><form action="//www.google.com/search" method="get" accept-charset="utf-8" target="_blank" class="search-form"><input type="text" name="q" maxlength="20" placeholder="Search"/><input type="hidden" name="sitesearch" value="http://ios.idup.club"/></form></div><div class="widget"><div class="widget-title"><i class="fa fa-folder-o"> 分类</i></div><ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/IOS基础/">IOS基础</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/IOS应用开发/">IOS应用开发</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/Swift基础/">Swift基础</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/xcode概述/">xcode概述</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/应用示例/">应用示例</a></li></ul></div><div class="widget"><div class="widget-title"><i class="fa fa-star-o"> 标签</i></div><div class="tagcloud"></div></div><div class="widget"><div class="widget-title"><i class="fa fa-file-o"> 最新文章</i></div><ul class="post-list"><li class="post-list-item"><a class="post-list-link" href="/swift/Swift-Tour/">Swift 简易教程</a></li><li class="post-list-item"><a class="post-list-link" href="/swift/About-Swift/">关于Swift</a></li><li class="post-list-item"><a class="post-list-link" href="/swift/About-This-Site/">关于本站内容</a></li><li class="post-list-item"><a class="post-list-link" href="/demo/Location/">Location</a></li><li class="post-list-item"><a class="post-list-link" href="/demo/Camera/">Camera</a></li><li class="post-list-item"><a class="post-list-link" href="/demo/Bouncer/">Bouncer</a></li><li class="post-list-item"><a class="post-list-link" href="/demo/Dropit/">Dropit</a></li><li class="post-list-item"><a class="post-list-link" href="/demo/Cassini/">Cassini</a></li><li class="post-list-item"><a class="post-list-link" href="/app/1-Jump-Right-in/">一. 创建工程</a></li><li class="post-list-item"><a class="post-list-link" href="/app/2-Build-a-basic-UI/">二. 创建基本用户界面</a></li></ul></div><div class="widget"><div class="widget-title"><i class="fa fa-external-link"> 友情链接</i></div><ul></ul><a href="http://www.example1.com/" title="site-name1" target="_blank">site-name1</a><ul></ul><a href="http://www.example2.com/" title="site-name2" target="_blank">site-name2</a><ul></ul><a href="http://www.example3.com/" title="site-name3" target="_blank">site-name3</a></div></div></div><div class="pure-u-1 pure-u-md-3-4"><div id="footer">© <a href="/." rel="nofollow">iOS应用开发.</a> Powered by<a rel="nofollow" target="_blank" href="https://hexo.io"> Hexo.</a><a rel="nofollow" target="_blank" href="https://github.com/tufu9441/maupassant-hexo"> Theme</a> by<a rel="nofollow" target="_blank" href="https://github.com/pagecho"> Cho.</a></div></div></div><a id="rocket" href="#top" class="show"></a><script type="text/javascript" src="/js/jquery.min.js?v=0.0.0"></script><script type="text/javascript" src="/js/totop.js?v=0.0.0"></script><script type="text/javascript" src="/js/fancybox.pack.js?v=0.0.0"></script><script type="text/javascript" src="/js/jquery.fancybox.js?v=0.0.0"></script><link rel="stylesheet" type="text/css" href="/css/jquery.fancybox.css?v=0.0.0"><script type="text/javascript" src="/js/share.js?v=0.0.0"></script><script type="text/javascript" src="/js/codeblock-resizer.js?v=0.0.0"></script><script type="text/javascript" src="/js/smartresize.js?v=0.0.0"></script></div></body></html>

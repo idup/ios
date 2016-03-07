@@ -1,0 +1,114 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta http-equiv="content-type" content="text/html; charset=utf-8"><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport"><meta content="yes" name="apple-mobile-web-app-capable"><meta content="black-translucent" name="apple-mobile-web-app-status-bar-style"><meta content="telephone=no" name="format-detection"><meta name="description"><title>Xcode 工作区窗口 | iOS应用开发</title><link rel="stylesheet" type="text/css" href="/css/normalize.css?v=0.0.0"><link rel="stylesheet" type="text/css" href="/css/pure-min.css?v=0.0.0"><link rel="stylesheet" type="text/css" href="/css/grids-responsive-min.css?v=0.0.0"><link rel="stylesheet" type="text/css" href="/css/style.css?v=0.0.0"><link rel="stylesheet" href="//cdn.bootcss.com/font-awesome/4.5.0/css/font-awesome.min.css"><link rel="Shortcut Icon" type="image/x-icon" href="/favicon.ico"><link rel="apple-touch-icon" href="/apple-touch-icon.png"><link rel="apple-touch-icon-precomposed" href="/apple-touch-icon.png"><link rel="alternate" type="application/atom+xml" href="/atom.xml"></head><body><div class="body_container"><div id="header"><div class="site-name"><h1 class="hidden">Xcode 工作区窗口</h1><a id="logo" href="/.">iOS应用开发</a><p class="description">学习iOS App开发</p></div><div id="nav-menu"><a href="/." class="current"><i class="fa fa-home"> 首页</i></a><a href="/about/"><i class="fa fa-user"> 关于</i></a><a href="/atom.xml"><i class="fa fa-rss"> 订阅</i></a></div></div><div id="layout" class="pure-g"><div class="pure-u-1 pure-u-md-3-4"><div class="content_container"><div class="post"><h1 class="post-title">Xcode 工作区窗口</h1><div class="post-meta">Oct 6, 2015<span> | </span><span class="category"><a href="/categories/xcode概述/">xcode概述</a></span><script src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js" async></script><span id="busuanzi_container_page_pv"> | <span id="busuanzi_value_page_pv"></span><span> Hits</span></span></div><div class="post-content"><p>Xcode 概述<br><a id="more"></a></p>
+<h2 id="工作区窗口The-Workspace-Window"><a href="#工作区窗口The-Workspace-Window" class="headerlink" title="工作区窗口The Workspace Window"></a>工作区窗口<a href="https://developer.apple.com/library/mac/documentation/ToolsLanguages/Conceptual/Xcode_Overview/TheWorkspaceWindow.html#//apple_ref/doc/uid/TP40010215-CH25-SW1" target="_blank" rel="external">The Workspace Window</a></h2><hr>
+<h3 id="Workspace-Window-Overview"><a href="#Workspace-Window-Overview" class="headerlink" title="Workspace Window Overview"></a><a href="https://developer.apple.com/library/mac/documentation/ToolsLanguages/Conceptual/Xcode_Overview/TheWorkspaceWindow.html#//apple_ref/doc/uid/TP40010215-CH25-SW1" target="_blank" rel="external">Workspace Window Overview</a></h3><hr>
+<p>Xcode工作区可用来执行核心开发任务，它是创建和管理工程的主界面。工程是Xcode开发中的主要单元，包含了构建应用程序所需的所有元素、框架、插件以及其他软件产品，并维系这着这些元素之间的关系。关于工程的更多详细信息，请参看： A Project Is a Repository of Files and Resources for Building Apps.</p>
+<p>Xcode的工作区可以自动适应其手头上的任务，您可以更进一步配置窗口使之适合自己的工作风格。您可以根据需要打开多个工作区。</p>
+<p>工作区窗口组件如下图所示：</p>
+<p><img src="/images/xcode1_1.png" alt="xcode1_1"></p>
+<p>工作区窗口包含编辑区。当您选中工程中的一个文件时，其内容会出现在编辑区，Xcode会在适当的编辑器中打开文件。比如上图中，在工作区窗口左侧的导航器中选中一个Swift代码文件，右侧的编辑区则会包含AdventureScene.swift。</p>
+<p>工作区窗口最多可展示3个可选区域，用于在开发周期中执行不同的任务。隐藏不用的区域可帮您更好地专注于当前的任务。您可以通过工具栏最右端的工作区配置按钮隐藏或者展示可选区。</p>
+<ul>
+<li><p>展示和隐藏导航区域（navigator area）。您可以在导航区遍历整个工程，包括文件、符号、断点、编译问题、测试以及编译报告等，也可以搜索工程中的任何字符串。</p>
+</li>
+<li><p>展示和隐藏调试区（debug area）。您可以在调试区查看变量，与调试终端进行交互，以及控制应用程序的执行。</p>
+</li>
+<li><p>展示和隐藏实用工具区（utilities area）。您可以在该区域检查或更改文件的属性、图形UI元素、sprites以及项目中的其他元素，也可以用来访问现成的资源库，请参看： Access Resources and Inspect Elements in the Utilities Area.</p>
+</li>
+</ul>
+<h3 id="在工作区导航Navigating-Your-Workspace"><a href="#在工作区导航Navigating-Your-Workspace" class="headerlink" title="在工作区导航Navigating Your Workspace"></a>在工作区导航<a href="https://developer.apple.com/library/mac/documentation/ToolsLanguages/Conceptual/Xcode_Overview/NavigatingYourWorkspace.html#//apple_ref/doc/uid/TP40010215-CH26-SW1" target="_blank" rel="external">Navigating Your Workspace</a></h3><p>您可以在导航面板中访问工程中的文件、符号、单元测试、诊断以及其他方面。在导航栏中，您可以选择适合自身任务的导航器，并在每个导航器的内容区（content area）访问工程相关的部分，而且每个导航器的filter bar则可以让您限制内容的展示。</p>
+<p><img src="/images/xcode1_2.png" alt="xcode1_2"></p>
+<p>Navigator bar中包含以下选项：</p>
+<ul>
+<li><p>工程导航器（Project navigator）：在工程中添加、删除、分组以及管理文件，或者查看文件，或者在编辑区编辑其内容。</p>
+</li>
+<li><p>符号导航器（Symbol navigator）：以列表或者层级形式浏览工程中的符号。可通过Filter bar左侧的按钮将符号限制在任意类或者协议的组合，或者仅展示工程中的符号，或者仅展示容器（containers）。</p>
+</li>
+<li><p>搜索导航器（Find navigator）：使用搜索或者过滤功能快速查找工程中的任何字符串。</p>
+</li>
+<li><p>问题导航器（Issue navigator）：可查看在打开、分析以及构建项目过程中发现的诊断、警告以及错误问题。</p>
+</li>
+<li><p>测试导航器（Test navigator）：创建、管理、运行以及检查单元测试。</p>
+</li>
+<li><p>调试导航器（Debug navigator）：检查项目执行过程中某个指定点或指定时间的运行线程和相关的堆栈信息。</p>
+</li>
+<li><p>断点导航器（Breakpoint navigator）：通过指定特征（比如触发条件）来微调断点。</p>
+</li>
+<li><p>报告导航器（Report navigator）：查看构建、运行、调试、持续集成以及源码控制相关历史信息。</p>
+</li>
+</ul>
+<p>在Filter bar文本输入区键入文本，则会在内容区（Content area）展示包含该检索词的项目。大部分导航器在filter bar左侧展示按钮，用以进一步限制所展示的内容。部分filter bar左侧有一个“+”的按钮，可用来在content area中添加元素。报告导航器中filter bar左侧的按钮用来与bots进行交互。关于报告导航器中Bots的用法详情请参看Xcode Continuous Integration Guide中Manage and Monitor Bots from the Report Navigator一节。</p>
+<p>在Content area选中文件并查看或者编辑文件。</p>
+<h3 id="编辑工程文件Editing-Your-Files"><a href="#编辑工程文件Editing-Your-Files" class="headerlink" title="编辑工程文件Editing Your Files"></a>编辑工程文件<a href="https://developer.apple.com/library/mac/documentation/ToolsLanguages/Conceptual/Xcode_Overview/EditingYourFiles.html#//apple_ref/doc/uid/TP40010215-CH27-SW1" target="_blank" rel="external">Editing Your Files</a></h3><p>Xcode中大部分编辑工作发生在编辑区，该区域是工作区窗口中主要的可视化区域。最常使用的编辑器有：</p>
+<ul>
+<li><p>源码编辑器（Source editor）：用以编写源代码。</p>
+</li>
+<li><p>Interface Builder：用以图形化地创建和编辑用户界面文件。</p>
+</li>
+<li><p>工程编辑器（Project editor）：用以查看和编辑应用程序的构建方式，比如制定构建选项、目标架构以及app entitlements。</p>
+</li>
+</ul>
+<p>在导航器的内容区选中文件，Xcode会在相应的编辑器中打开文件。在截图中，我们在project navigator中选择文件iPhoneStoryboard.storyboard，那么会在Interface Builder中打开该文件。Interface Builder在左侧展示大纲视图，并在右侧展示画布（canvas）。更多信息请参看Build a User Interface。（可选的实用工具区和调试区被隐藏，以便最大化导航器和编辑器的空间）</p>
+<p><img src="/images/xcode1_3.png" alt="xcode1_3"><br>以下截图展示了若干出现在搜索导航器内容区的搜索结果。选中其中一项结果，其文本字符串就出现在源码编辑器中。<br><img src="/images/xcode1_4.png" alt="xcode1_4"></p>
+<h4 id="配置编辑区域"><a href="#配置编辑区域" class="headerlink" title="配置编辑区域"></a>配置编辑区域</h4><p>使用工具栏右侧的编辑器配置按钮，并根据既定的任务来配置编辑区域。</p>
+<ul>
+<li><p>标准编辑器（Standard editor）：使用选中文件的内容填充编辑区。</p>
+</li>
+<li><p>辅助编辑器（Assistant editor）：在标准编辑器面板中展示一个逻辑上与内容相关的单独的编辑器面板。您可以更改其内容。</p>
+</li>
+<li><p>版本编辑器（Version editor）：在一个面板中展示当前选文件，在第二个面板中展示该文件的另一个版本，以便比较两者之间的差异。只有当您的工程支持源码控制的时候，该编辑器才起作用。</p>
+</li>
+</ul>
+<p>下图是一个在标准编辑器面板中打开的执行文件APAAdventureScene.m。隐藏了导航区、调试区以及工具区3个可选的工作区，最大化了编辑区的内容展示。在源码编辑器中，辅助面板展示了执行文件相关的头文件APAAdventureScene.h.</p>
+<p><img src="/images/xcode1_5.png" alt="xcode1_5"></p>
+<h4 id="使用跳转栏"><a href="#使用跳转栏" class="headerlink" title="使用跳转栏"></a>使用跳转栏</h4><p>每个编辑器或者辅助编辑器面板都包括一个跳转栏–一个交互式的分层机制，用以直接跳转至工程中任意层次结构中的某个项目。跳转栏的配置和行为可根据上下文环境</p>
+<p>定制。一个基本的跳转栏配置由3部分组成：</p>
+<ol>
+<li><p>相关项目菜单提供了与当前上下文环境相关的附加选项，比如最近打开的文件或者您正在编辑的执行（.m）文件的接口（.h）文件。</p>
+</li>
+<li><p>XC_O_jumpbar_next_prev_buttons用来在导航历史中查看上一个或者下一个文件。</p>
+</li>
+<li><p>分层路径菜单允许您通过跳转至一个新项目来更改编辑器或者辅助编辑器面板中展示的内容。根据您点击的路径，它可以由一个或者多个分段组成。</p>
+</li>
+</ol>
+<p>点击分层路径菜单中的某个分段（segment）可看到相关项目的弹出菜单。比如，如果分段可识别工程的名称，那您可以在工程中使用跳转栏导航至某个文件或者打开任何一个文件。如果分段可识别文件夹的名称，那您可以使用跳转栏打开文件夹内的文件。如果分段可识别源码文件的名称，那您可以在当前打开的文件中使用跳转栏来展示并选中符号。</p>
+<p><img src="/images/xcode1_6.png" alt="xcode1_6"></p>
+<h3 id="在实用工具区访问资源和检查元素"><a href="#在实用工具区访问资源和检查元素" class="headerlink" title="在实用工具区访问资源和检查元素"></a>在实用工具区访问资源和检查元素</h3><p>实用工具区位于工作区窗口的最右边，您可以通过它快速访问以下资源：</p>
+<ul>
+<li><p>Inspectors,用以查看和更改编辑器中打开的文件的属性（特性）。</p>
+</li>
+<li><p>现成的库-可用在工程中的现成库。</p>
+</li>
+</ul>
+<p>下图中，实用工具区面板的顶端是Inspectors，底部面板中放置的是可访问使用的库。<br><img src="/images/xcode1_7.png" alt="xcode1_7"></p>
+<p>使用inspector栏选择最适用于您当前任务的检查器。通常情况下，您通常会在检查器栏中看见两个检查器，其余检查器在其他编辑器中可见。</p>
+<ul>
+<li><p>文件检查器（File inspector）：用以查看和管理选中文件的元数据。尤其是要本地化storyboards和其他媒体文件，并更改用户界面文件设置时。</p>
+</li>
+<li><p>快速帮助（Quick Help）：查看符号的细节信息、界面元素，或者在文件中构建设置。比如Quick Help展示对方法的简明描述，该方法何时在何处被声明，该方法的范围，它所需的参数，以及适用平台和可用的架构。</p>
+</li>
+</ul>
+<p>使用library bar 访问现有的资源库：</p>
+<ul>
+<li><p>文件模板（File templates）：普通类型文件和代码结构的模板。</p>
+</li>
+<li><p>代码片段（Code snippets）：用以储存您软件中用到的源代码片段，比如类声明、control flows、block声明以及苹果公司常用的模板。</p>
+</li>
+<li><p>（对象）Objects：应用程序用户界面的项目。</p>
+</li>
+<li><p>（媒体）Media：包含图形、图标、声音文件以及诸如此类的文件。</p>
+</li>
+</ul>
+<p>想要在您的项目中使用现成的库，可将其直接拖拽至适当的区域。比如，您要使用代码片段，可将其从库中直接拖放到源码编辑器中；想要使用文件模板创建一个源码文件，可将其模板拖放至工程导航器中。</p>
+<p>想要限制某个被选中库的项目展示数，可在 filter bar的文本域输入相关的文本进行限制。比如，输入“button”来展示对象库中的所有按钮。</p>
+<h3 id="使用工作区工具栏管理常见任务"><a href="#使用工作区工具栏管理常见任务" class="headerlink" title="使用工作区工具栏管理常见任务"></a>使用工作区工具栏管理常见任务</h3><p>工作区窗口顶部的工具栏可让您快速访问频繁使用的命令。“Run”按钮可构建和运行您的产品。“Stop”按钮可终止代码的运行。“Scheme menu”可让您配置您想要创建和运行的产品。“Activity viewer”通过展示状态信息来展示当前任务执行的进程、构建进程以及您项目的其他信息。</p>
+<p>到此，您已经清楚了编辑器配置按钮如何配置编辑器区域，已经了解了工作区配置按钮如何隐藏或者展示可选的导航器区、调试区以及实用工具区。</p>
+<p><img src="/images/xcode1_8.png" alt="xcode1_8"></p>
+<p>View菜单包括隐藏或者展示工具栏的命令。</p>
+<p><img src="/images/xcode1_9.png" alt="xcode1_9"></p>
+<h3 id="使用多个Tab或者多个窗口"><a href="#使用多个Tab或者多个窗口" class="headerlink" title="使用多个Tab或者多个窗口"></a>使用多个Tab或者多个窗口</h3><p>使用Safari风格的tab来实现工作区窗口多重的工作流指定的布局。比如，在下方的截图中，活跃标签展示了资源编辑器中执行文件(APAViewController.m) 的内容，右端的是头文件(APAViewController.h)，左边是app storyboard(iPhoneStoryboard.storyboard)。点击某个tab，其对应的编辑器则会成为当前的活跃编辑器。</p>
+<p><img src="/images/xcode1_10.png" alt="xcode1_10"></p>
+<p>View菜单包含了展示和隐藏tab的命令。创建一个tab，可选择File &gt; New &gt; Tab。想要移除tab，请将指针放在tab上并点击关闭按钮即可。</p>
+<p>想要创建多个工作区窗口，可选择 File &gt; New Window。可定义每个tab或窗口，比如使用工具栏中的Hide/Show实用工具按钮(XC_O_utilities_button_2x.png )展示或隐藏实用工具区。</p>
+<p><img src="/images/xcode1_11.png" alt="xcode1_11"></p>
+<p><img src="/images/xcode1_12.png" alt="xcode1_12"></p>
+</div><a data-url="http://ios.idup.club/xcode/Xcode概述-1(工作区窗口)/" data-id="cili4cwie001plrcg4s4hh495" class="article-share-link">分享到</a><div class="tags"></div><div class="post-nav"><a href="/xcode/Xcode概览-Essential/" class="pre">Xcode 精髓</a><a href="/xcode/Xcode概述-2(创建应用)/" class="next">Xcode 创建应用</a></div></div></div></div><div class="pure-u-1-4"><div id="sidebar"><div class="widget"><form action="//www.google.com/search" method="get" accept-charset="utf-8" target="_blank" class="search-form"><input type="text" name="q" maxlength="20" placeholder="Search"/><input type="hidden" name="sitesearch" value="http://ios.idup.club"/></form></div><div class="widget"><div class="widget-title"><i class="fa fa-folder-o"> 分类</i></div><ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/IOS基础/">IOS基础</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/IOS应用开发/">IOS应用开发</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/Swift基础/">Swift基础</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/xcode概述/">xcode概述</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/应用示例/">应用示例</a></li></ul></div><div class="widget"><div class="widget-title"><i class="fa fa-star-o"> 标签</i></div><div class="tagcloud"></div></div><div class="widget"><div class="widget-title"><i class="fa fa-file-o"> 最新文章</i></div><ul class="post-list"><li class="post-list-item"><a class="post-list-link" href="/swift/Swift-Tour/">Swift 简易教程</a></li><li class="post-list-item"><a class="post-list-link" href="/swift/About-Swift/">关于Swift</a></li><li class="post-list-item"><a class="post-list-link" href="/swift/About-This-Site/">关于本站内容</a></li><li class="post-list-item"><a class="post-list-link" href="/demo/Location/">Location</a></li><li class="post-list-item"><a class="post-list-link" href="/demo/Camera/">Camera</a></li><li class="post-list-item"><a class="post-list-link" href="/demo/Bouncer/">Bouncer</a></li><li class="post-list-item"><a class="post-list-link" href="/demo/Dropit/">Dropit</a></li><li class="post-list-item"><a class="post-list-link" href="/demo/Cassini/">Cassini</a></li><li class="post-list-item"><a class="post-list-link" href="/app/1-Jump-Right-in/">一. 创建工程</a></li><li class="post-list-item"><a class="post-list-link" href="/app/2-Build-a-basic-UI/">二. 创建基本用户界面</a></li></ul></div><div class="widget"><div class="widget-title"><i class="fa fa-external-link"> 友情链接</i></div><ul></ul><a href="http://www.example1.com/" title="site-name1" target="_blank">site-name1</a><ul></ul><a href="http://www.example2.com/" title="site-name2" target="_blank">site-name2</a><ul></ul><a href="http://www.example3.com/" title="site-name3" target="_blank">site-name3</a></div></div></div><div class="pure-u-1 pure-u-md-3-4"><div id="footer">© <a href="/." rel="nofollow">iOS应用开发.</a> Powered by<a rel="nofollow" target="_blank" href="https://hexo.io"> Hexo.</a><a rel="nofollow" target="_blank" href="https://github.com/tufu9441/maupassant-hexo"> Theme</a> by<a rel="nofollow" target="_blank" href="https://github.com/pagecho"> Cho.</a></div></div></div><a id="rocket" href="#top" class="show"></a><script type="text/javascript" src="/js/jquery.min.js?v=0.0.0"></script><script type="text/javascript" src="/js/totop.js?v=0.0.0"></script><script type="text/javascript" src="/js/fancybox.pack.js?v=0.0.0"></script><script type="text/javascript" src="/js/jquery.fancybox.js?v=0.0.0"></script><link rel="stylesheet" type="text/css" href="/css/jquery.fancybox.css?v=0.0.0"><script type="text/javascript" src="/js/share.js?v=0.0.0"></script><script type="text/javascript" src="/js/codeblock-resizer.js?v=0.0.0"></script><script type="text/javascript" src="/js/smartresize.js?v=0.0.0"></script></div></body></html>
