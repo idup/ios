@@ -1,6 +1,6 @@
 title: 二. 创建基本用户界面
 date: 2015-12-08 11:11:31
-category:  IOS应用开发
+category:  iOS应用示例
 tags:
 ---
 

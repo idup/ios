@@ -1,6 +1,6 @@
 title: 六. 定义数据模型
 date: 2015-12-04 11:58:51
-category:  IOS应用开发
+category:  iOS应用示例
 tags:
 ---
 

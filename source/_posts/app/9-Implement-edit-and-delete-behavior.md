@@ -1,6 +1,6 @@
 title: 九. 实现编辑和删除操作
 date: 2015-12-01 11:59:42
-category:  IOS应用开发
+category:  iOS应用示例
 tags:
 ---
 

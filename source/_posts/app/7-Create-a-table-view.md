@@ -1,6 +1,6 @@
 title: 七. 创建表视图
 date: 2015-12-03 11:59:11
-category:  IOS应用开发
+category:  iOS应用示例
 tags:
 ---
 ### 创建开放视图

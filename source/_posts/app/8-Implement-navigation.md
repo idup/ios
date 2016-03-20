@@ -1,6 +1,6 @@
 title: 八. 实现导航
 date: 2015-12-02 11:59:23
-category:  IOS应用开发
+category:  iOS应用示例
 tags:
 ---
 

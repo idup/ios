@@ -1,6 +1,6 @@
 title: 五. 实现自定义控件
 date: 2015-12-05 11:58:40
-category:  IOS应用开发
+category:  iOS应用示例
 tags:
 ---
 

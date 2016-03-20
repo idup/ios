@@ -1,6 +1,6 @@
 title: 十. 持久化数据
 date: 2015-12-00 12:00:00
-category:  IOS应用开发
+category:  iOS应用示例
 tags:
 ---
 

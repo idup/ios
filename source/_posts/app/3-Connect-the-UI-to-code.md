@@ -1,6 +1,6 @@
 title: 三. 连接界面与代码
 date: 2015-12-07 11:18:57
-category:  IOS应用开发
+category:  iOS应用示例
 tags:
 ---
 

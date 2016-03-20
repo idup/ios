@@ -1,6 +1,6 @@
 title: 四. 编写视图控制器
 date: 2015-12-06 11:58:26
-category:  IOS应用开发
+category:  iOS应用示例
 tags:
 ---
 
