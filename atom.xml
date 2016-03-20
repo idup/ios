@@ -256,7 +256,7 @@
     <link href="http://ios.idup.club/demo/Location/"/>
     <id>http://ios.idup.club/demo/Location/</id>
     <published>2015-12-16T03:41:42.000Z</published>
-    <updated>2016-03-07T15:02:43.632Z</updated>
+    <updated>2016-03-20T05:51:35.406Z</updated>
     
     <content type="html">&lt;p&gt;本教程主要介绍如何在应用中使用定位和地图技术。 相应代码位于 &lt;a href=&quot;https://github.com/idup/Location&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://github.com/idup/Location&lt;/a&gt;&lt;/p&gt;
 &lt;h4 id=&quot;1-新建项目&quot;&gt;&lt;a href=&quot;#1-新建项目&quot; class=&quot;headerlink&quot; title=&quot;1.新建项目&quot;&gt;&lt;/a&gt;1.新建项目&lt;/h4&gt;&lt;p&gt;&lt;img src=&quot;/picture/6-1.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
@@ -283,7 +283,7 @@
     
     </summary>
     
-      <category term="应用示例" scheme="http://ios.idup.club/categories/%E5%BA%94%E7%94%A8%E7%A4%BA%E4%BE%8B/"/>
+      <category term="iOS技术示例" scheme="http://ios.idup.club/categories/iOS%E6%8A%80%E6%9C%AF%E7%A4%BA%E4%BE%8B/"/>
     
     
   </entry>
@@ -293,7 +293,7 @@
     <link href="http://ios.idup.club/demo/Camera/"/>
     <id>http://ios.idup.club/demo/Camera/</id>
     <published>2015-12-16T03:41:29.000Z</published>
-    <updated>2016-03-07T15:02:43.632Z</updated>
+    <updated>2016-03-20T05:51:22.542Z</updated>
     
     <content type="html">&lt;p&gt;本教程主要介绍如何在应用中使用摄像头技术。 相应代码位于 &lt;a href=&quot;https://github.com/idup/Camera&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://github.com/idup/Camera&lt;/a&gt;&lt;/p&gt;
 &lt;h4 id=&quot;1-新建项目&quot;&gt;&lt;a href=&quot;#1-新建项目&quot; class=&quot;headerlink&quot; title=&quot;1.新建项目&quot;&gt;&lt;/a&gt;1.新建项目&lt;/h4&gt;&lt;p&gt;运行 Xcode ,选择 File-&amp;gt;New-&amp;gt;Project… (键盘快捷键是 Command + Shift + N )。 在新出现的窗又中,选择左 侧iOS部分的 Application ,然后选择右 边的 Single View Application (单窗又应用)模板,单击 Next 按钮。 在文本框 Product Name 中填入 Cassini , 在 Language 弹出式菜单中选择 Swift , 在 Devices 选择 iPhone 。确保标 题为 Use Core Data 的选择框未 被选中, 点击下一步按钮,单击创建按钮创建项目。&lt;/p&gt;
@@ -313,7 +313,7 @@
     
     </summary>
     
-      <category term="应用示例" scheme="http://ios.idup.club/categories/%E5%BA%94%E7%94%A8%E7%A4%BA%E4%BE%8B/"/>
+      <category term="iOS技术示例" scheme="http://ios.idup.club/categories/iOS%E6%8A%80%E6%9C%AF%E7%A4%BA%E4%BE%8B/"/>
     
     
   </entry>
@@ -323,7 +323,7 @@
     <link href="http://ios.idup.club/demo/Bouncer/"/>
     <id>http://ios.idup.club/demo/Bouncer/</id>
     <published>2015-12-15T15:51:29.000Z</published>
-    <updated>2016-03-07T15:02:43.632Z</updated>
+    <updated>2016-03-20T05:51:14.206Z</updated>
     
     <content type="html">&lt;p&gt;本教程将介绍如何在应用中使用手势和传感器技术。 相应代码位于&lt;a href=&quot;https://github.com/idup/Bouncer&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://github.com/idup/Bouncer&lt;/a&gt;。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;/picture/3-1.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
@@ -368,7 +368,7 @@
     
     </summary>
     
-      <category term="应用示例" scheme="http://ios.idup.club/categories/%E5%BA%94%E7%94%A8%E7%A4%BA%E4%BE%8B/"/>
+      <category term="iOS技术示例" scheme="http://ios.idup.club/categories/iOS%E6%8A%80%E6%9C%AF%E7%A4%BA%E4%BE%8B/"/>
     
     
   </entry>
@@ -378,7 +378,7 @@
     <link href="http://ios.idup.club/demo/Dropit/"/>
     <id>http://ios.idup.club/demo/Dropit/</id>
     <published>2015-12-15T15:51:29.000Z</published>
-    <updated>2016-03-07T15:02:43.632Z</updated>
+    <updated>2016-03-20T05:51:30.742Z</updated>
     
     <content type="html">&lt;p&gt;本教程将介绍如何在应用中使用动画技术。 相应代码位于&lt;a href=&quot;https://github.com/idup/Dropit&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://github.com/idup/Dropit&lt;/a&gt;。&lt;/p&gt;
 &lt;p&gt;应用程序界面如下：&lt;/p&gt;
@@ -464,7 +464,7 @@
     
     </summary>
     
-      <category term="应用示例" scheme="http://ios.idup.club/categories/%E5%BA%94%E7%94%A8%E7%A4%BA%E4%BE%8B/"/>
+      <category term="iOS技术示例" scheme="http://ios.idup.club/categories/iOS%E6%8A%80%E6%9C%AF%E7%A4%BA%E4%BE%8B/"/>
     
     
   </entry>
@@ -474,7 +474,7 @@
     <link href="http://ios.idup.club/demo/Cassini/"/>
     <id>http://ios.idup.club/demo/Cassini/</id>
     <published>2015-12-15T15:51:17.000Z</published>
-    <updated>2016-03-07T15:02:43.632Z</updated>
+    <updated>2016-03-20T05:51:26.482Z</updated>
     
     <content type="html">&lt;p&gt;本教程将介绍如何在应用中使用并发编程技术。 相应代码位于&lt;a href=&quot;https://github.com/idup/Cassini&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://github.com/idup/Cassini&lt;/a&gt;。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;/picture/1-1.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
@@ -501,7 +501,7 @@
     
     </summary>
     
-      <category term="应用示例" scheme="http://ios.idup.club/categories/%E5%BA%94%E7%94%A8%E7%A4%BA%E4%BE%8B/"/>
+      <category term="iOS技术示例" scheme="http://ios.idup.club/categories/iOS%E6%8A%80%E6%9C%AF%E7%A4%BA%E4%BE%8B/"/>
     
     
   </entry>
@@ -511,7 +511,7 @@
     <link href="http://ios.idup.club/app/1-Jump-Right-in/"/>
     <id>http://ios.idup.club/app/1-Jump-Right-in/</id>
     <published>2015-12-08T16:19:45.000Z</published>
-    <updated>2016-03-07T15:02:43.628Z</updated>
+    <updated>2016-03-20T05:46:24.479Z</updated>
     
     <content type="html">&lt;p&gt;开始开发iOS应用（Start Developing iOS Apps）是学习iPhone和iPad应用开发的起点。&lt;/p&gt;
 &lt;h3 id=&quot;关于本课程&quot;&gt;&lt;a href=&quot;#关于本课程&quot; class=&quot;headerlink&quot; title=&quot;关于本课程&quot;&gt;&lt;/a&gt;关于本课程&lt;/h3&gt;&lt;p&gt;通过本课程，你将开发一个简单的饮食追踪应用FoodTracker。&lt;/p&gt;
@@ -530,7 +530,7 @@
     
     </summary>
     
-      <category term="IOS应用开发" scheme="http://ios.idup.club/categories/IOS%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91/"/>
+      <category term="iOS应用示例" scheme="http://ios.idup.club/categories/iOS%E5%BA%94%E7%94%A8%E7%A4%BA%E4%BE%8B/"/>
     
     
   </entry>
@@ -540,7 +540,7 @@
     <link href="http://ios.idup.club/app/2-Build-a-basic-UI/"/>
     <id>http://ios.idup.club/app/2-Build-a-basic-UI/</id>
     <published>2015-12-08T03:11:31.000Z</published>
-    <updated>2016-03-07T15:02:43.628Z</updated>
+    <updated>2016-03-20T05:46:29.711Z</updated>
     
     <content type="html">&lt;h3 id=&quot;打开Storyboard&quot;&gt;&lt;a href=&quot;#打开Storyboard&quot; class=&quot;headerlink&quot; title=&quot;打开Storyboard&quot;&gt;&lt;/a&gt;打开Storyboard&lt;/h3&gt;&lt;p&gt;&lt;img src=&quot;/images/2-1.png&quot; alt=&quot;打开Storyboard&quot;&gt;&lt;/p&gt;
 &lt;h3 id=&quot;添加文本框（Text-Field）&quot;&gt;&lt;a href=&quot;#添加文本框（Text-Field）&quot; class=&quot;headerlink&quot; title=&quot;添加文本框（Text Field）&quot;&gt;&lt;/a&gt;添加文本框（Text Field）&lt;/h3&gt;&lt;p&gt;从Object library中拖拽一个文本框到Storyboard的 scene中,重新设置文本框大小。&lt;/p&gt;
@@ -576,7 +576,7 @@
     
     </summary>
     
-      <category term="IOS应用开发" scheme="http://ios.idup.club/categories/IOS%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91/"/>
+      <category term="iOS应用示例" scheme="http://ios.idup.club/categories/iOS%E5%BA%94%E7%94%A8%E7%A4%BA%E4%BE%8B/"/>
     
     
   </entry>
@@ -586,7 +586,7 @@
     <link href="http://ios.idup.club/app/3-Connect-the-UI-to-code/"/>
     <id>http://ios.idup.club/app/3-Connect-the-UI-to-code/</id>
     <published>2015-12-07T03:18:57.000Z</published>
-    <updated>2016-03-07T15:02:43.628Z</updated>
+    <updated>2016-03-20T05:46:36.551Z</updated>
     
     <content type="html">&lt;h3 id=&quot;为UI元素创建Outlets&quot;&gt;&lt;a href=&quot;#为UI元素创建Outlets&quot; class=&quot;headerlink&quot; title=&quot;为UI元素创建Outlets&quot;&gt;&lt;/a&gt;为UI元素创建Outlets&lt;/h3&gt;&lt;p&gt;点击toolbar中的Assistant按钮，将assistant editor从Preview状态转换为Automatic状态。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;/images/3-1.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
@@ -626,7 +626,7 @@
     
     </summary>
     
-      <category term="IOS应用开发" scheme="http://ios.idup.club/categories/IOS%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91/"/>
+      <category term="iOS应用示例" scheme="http://ios.idup.club/categories/iOS%E5%BA%94%E7%94%A8%E7%A4%BA%E4%BE%8B/"/>
     
     
   </entry>
@@ -636,7 +636,7 @@
     <link href="http://ios.idup.club/app/4-Work-with-view-controllers/"/>
     <id>http://ios.idup.club/app/4-Work-with-view-controllers/</id>
     <published>2015-12-06T03:58:26.000Z</published>
-    <updated>2016-03-07T15:02:43.628Z</updated>
+    <updated>2016-03-20T05:46:42.791Z</updated>
     
     <content type="html">&lt;h3 id=&quot;增加一张Meal图片&quot;&gt;&lt;a href=&quot;#增加一张Meal图片&quot; class=&quot;headerlink&quot; title=&quot;增加一张Meal图片&quot;&gt;&lt;/a&gt;增加一张Meal图片&lt;/h3&gt;&lt;p&gt;从Object library中拖拽一个 image view放入stack view中的button下面。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;/images/4-1.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
@@ -678,7 +678,7 @@
     
     </summary>
     
-      <category term="IOS应用开发" scheme="http://ios.idup.club/categories/IOS%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91/"/>
+      <category term="iOS应用示例" scheme="http://ios.idup.club/categories/iOS%E5%BA%94%E7%94%A8%E7%A4%BA%E4%BE%8B/"/>
     
     
   </entry>
@@ -688,7 +688,7 @@
     <link href="http://ios.idup.club/app/5-Implement-a-custom-control/"/>
     <id>http://ios.idup.club/app/5-Implement-a-custom-control/</id>
     <published>2015-12-05T03:58:40.000Z</published>
-    <updated>2016-03-07T15:02:43.628Z</updated>
+    <updated>2016-03-20T05:46:53.291Z</updated>
     
     <content type="html">&lt;h3 id=&quot;创建自定义视图&quot;&gt;&lt;a href=&quot;#创建自定义视图&quot; class=&quot;headerlink&quot; title=&quot;创建自定义视图&quot;&gt;&lt;/a&gt;创建自定义视图&lt;/h3&gt;&lt;p&gt;点击File &amp;gt; New &amp;gt; File ，选择ios下的source选项，选择Cocoa Touch Class，点击next，Class设置为RatingControl，“Subclass of”选择UIView,Language选择Swift&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;/images/5-1.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
@@ -745,7 +745,7 @@
     
     </summary>
     
-      <category term="IOS应用开发" scheme="http://ios.idup.club/categories/IOS%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91/"/>
+      <category term="iOS应用示例" scheme="http://ios.idup.club/categories/iOS%E5%BA%94%E7%94%A8%E7%A4%BA%E4%BE%8B/"/>
     
     
   </entry>
@@ -755,7 +755,7 @@
     <link href="http://ios.idup.club/app/6-Define-your-data-model/"/>
     <id>http://ios.idup.club/app/6-Define-your-data-model/</id>
     <published>2015-12-04T03:58:51.000Z</published>
-    <updated>2016-03-07T15:02:43.628Z</updated>
+    <updated>2016-03-20T05:47:01.187Z</updated>
     
     <content type="html">&lt;h3 id=&quot;创建数据模型&quot;&gt;&lt;a href=&quot;#创建数据模型&quot; class=&quot;headerlink&quot; title=&quot;创建数据模型&quot;&gt;&lt;/a&gt;创建数据模型&lt;/h3&gt;&lt;p&gt;现在需要创建一个数据模型去存储 meal scene呈现的信息&lt;/p&gt;
 &lt;h5 id=&quot;创建一个简单的数据模型类&quot;&gt;&lt;a href=&quot;#创建一个简单的数据模型类&quot; class=&quot;headerlink&quot; title=&quot;创建一个简单的数据模型类&quot;&gt;&lt;/a&gt;创建一个简单的数据模型类&lt;/h5&gt;&lt;p&gt;依次点击File &amp;gt; New &amp;gt; File，选择ios下的source选项，选择Swift File,点击next，相关配置如下，点击完成，就创建了一个名为Meal.swift的文件&lt;/p&gt;
@@ -781,7 +781,7 @@
     
     </summary>
     
-      <category term="IOS应用开发" scheme="http://ios.idup.club/categories/IOS%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91/"/>
+      <category term="iOS应用示例" scheme="http://ios.idup.club/categories/iOS%E5%BA%94%E7%94%A8%E7%A4%BA%E4%BE%8B/"/>
     
     
   </entry>
@@ -791,7 +791,7 @@
     <link href="http://ios.idup.club/app/7-Create-a-table-view/"/>
     <id>http://ios.idup.club/app/7-Create-a-table-view/</id>
     <published>2015-12-03T03:59:11.000Z</published>
-    <updated>2016-03-07T15:02:43.628Z</updated>
+    <updated>2016-03-20T05:47:06.515Z</updated>
     
     <content type="html">&lt;h3 id=&quot;创建开放视图&quot;&gt;&lt;a href=&quot;#创建开放视图&quot; class=&quot;headerlink&quot; title=&quot;创建开放视图&quot;&gt;&lt;/a&gt;创建开放视图&lt;/h3&gt;&lt;p&gt;目前，FoodTracker app只有一个通过view controller管理的视图，还需要创建meals的列表，IOS内置了表视图类UITableView来展示这种项目滑动列表&lt;/p&gt;
 &lt;h5 id=&quot;在storyboard中添加一个表视图&quot;&gt;&lt;a href=&quot;#在storyboard中添加一个表视图&quot; class=&quot;headerlink&quot; title=&quot;在storyboard中添加一个表视图&quot;&gt;&lt;/a&gt;在storyboard中添加一个表视图&lt;/h5&gt;&lt;p&gt;在Object libray中找到Table View Controller对象，拖拽它把它放置在meal视图的左边，这时就有两个视图，一个用来用来添加meal，一个用来展示meal 列表&lt;/p&gt;
@@ -856,7 +856,7 @@
     
     </summary>
     
-      <category term="IOS应用开发" scheme="http://ios.idup.club/categories/IOS%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91/"/>
+      <category term="iOS应用示例" scheme="http://ios.idup.club/categories/iOS%E5%BA%94%E7%94%A8%E7%A4%BA%E4%BE%8B/"/>
     
     
   </entry>
@@ -866,7 +866,7 @@
     <link href="http://ios.idup.club/app/8-Implement-navigation/"/>
     <id>http://ios.idup.club/app/8-Implement-navigation/</id>
     <published>2015-12-02T03:59:23.000Z</published>
-    <updated>2016-03-07T15:02:43.628Z</updated>
+    <updated>2016-03-20T05:47:11.976Z</updated>
     
     <content type="html">&lt;h3 id=&quot;添加一个向前导航&quot;&gt;&lt;a href=&quot;#添加一个向前导航&quot; class=&quot;headerlink&quot; title=&quot;添加一个向前导航&quot;&gt;&lt;/a&gt;添加一个向前导航&lt;/h3&gt;&lt;p&gt;现在需要添加meal list到meal scene的导航&lt;/p&gt;
 &lt;h5 id=&quot;增加一个navigation-controller指向meal-list-scene&quot;&gt;&lt;a href=&quot;#增加一个navigation-controller指向meal-list-scene&quot; class=&quot;headerlink&quot; title=&quot;增加一个navigation controller指向meal list scene&quot;&gt;&lt;/a&gt;增加一个navigation controller指向meal list scene&lt;/h5&gt;&lt;p&gt;打开storyboard，点击scene dock来选择table view controller,保持选择状态依次点击Editor &amp;gt; Embed In &amp;gt; Navigation Controller.&lt;/p&gt;
@@ -927,7 +927,7 @@
     
     </summary>
     
-      <category term="IOS应用开发" scheme="http://ios.idup.club/categories/IOS%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91/"/>
+      <category term="iOS应用示例" scheme="http://ios.idup.club/categories/iOS%E5%BA%94%E7%94%A8%E7%A4%BA%E4%BE%8B/"/>
     
     
   </entry>
@@ -937,7 +937,7 @@
     <link href="http://ios.idup.club/app/9-Implement-edit-and-delete-behavior/"/>
     <id>http://ios.idup.club/app/9-Implement-edit-and-delete-behavior/</id>
     <published>2015-12-01T03:59:42.000Z</published>
-    <updated>2016-03-07T15:02:43.632Z</updated>
+    <updated>2016-03-20T05:47:19.792Z</updated>
     
     <content type="html">&lt;h3 id=&quot;允许编辑已经存在的Meals&quot;&gt;&lt;a href=&quot;#允许编辑已经存在的Meals&quot; class=&quot;headerlink&quot; title=&quot;允许编辑已经存在的Meals&quot;&gt;&lt;/a&gt;允许编辑已经存在的Meals&lt;/h3&gt;&lt;h5 id=&quot;配置table-view单元&quot;&gt;&lt;a href=&quot;#配置table-view单元&quot; class=&quot;headerlink&quot; title=&quot;配置table view单元&quot;&gt;&lt;/a&gt;配置table view单元&lt;/h5&gt;&lt;p&gt;打开Main.storyboard，选择table view cell，按住control并把它拖到meal scene中，在出现的Selection Segue中选择show选项&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;/images/9-1.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
@@ -967,7 +967,7 @@
     
     </summary>
     
-      <category term="IOS应用开发" scheme="http://ios.idup.club/categories/IOS%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91/"/>
+      <category term="iOS应用示例" scheme="http://ios.idup.club/categories/iOS%E5%BA%94%E7%94%A8%E7%A4%BA%E4%BE%8B/"/>
     
     
   </entry>
@@ -977,7 +977,7 @@
     <link href="http://ios.idup.club/app/10-Persist-data/"/>
     <id>http://ios.idup.club/app/10-Persist-data/</id>
     <published>2015-11-30T04:00:00.000Z</published>
-    <updated>2016-03-07T15:02:43.628Z</updated>
+    <updated>2016-03-20T05:47:25.728Z</updated>
     
     <content type="html">&lt;h3 id=&quot;保存并加载Meal&quot;&gt;&lt;a href=&quot;#保存并加载Meal&quot; class=&quot;headerlink&quot; title=&quot;保存并加载Meal&quot;&gt;&lt;/a&gt;保存并加载Meal&lt;/h3&gt;&lt;h5 id=&quot;实现代码键结构&quot;&gt;&lt;a href=&quot;#实现代码键结构&quot; class=&quot;headerlink&quot; title=&quot;实现代码键结构&quot;&gt;&lt;/a&gt;实现代码键结构&lt;/h5&gt;&lt;p&gt;打开 Meal.swift，在// MARK: Properties下面增加如下结构&lt;br&gt;&lt;figure class=&quot;highlight rust&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;// MARK: Types&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;class&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;struct&lt;/span&gt; &lt;span class=&quot;title&quot;&gt;PropertyKey&lt;/span&gt;&lt;/span&gt; &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &lt;span class=&quot;keyword&quot;&gt;static&lt;/span&gt; &lt;span class=&quot;keyword&quot;&gt;let&lt;/span&gt; nameKey = &lt;span class=&quot;string&quot;&gt;&quot;name&quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;   &lt;span class=&quot;keyword&quot;&gt;static&lt;/span&gt; &lt;span class=&quot;keyword&quot;&gt;let&lt;/span&gt; photoKey = &lt;span class=&quot;string&quot;&gt;&quot;photo&quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;   &lt;span class=&quot;keyword&quot;&gt;static&lt;/span&gt; &lt;span class=&quot;keyword&quot;&gt;let&lt;/span&gt; ratingKey = &lt;span class=&quot;string&quot;&gt;&quot;rating&quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
 &lt;p&gt;在 Meal.swift中找到Meal class行,修改为&lt;br&gt;&lt;figure class=&quot;highlight kotlin&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;class&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;title&quot;&gt;Meal&lt;/span&gt;: &lt;span class=&quot;type&quot;&gt;NSObject&lt;/span&gt;, &lt;span class=&quot;type&quot;&gt;NSCoding &amp;#123;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
@@ -1000,7 +1000,7 @@
     
     </summary>
     
-      <category term="IOS应用开发" scheme="http://ios.idup.club/categories/IOS%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91/"/>
+      <category term="iOS应用示例" scheme="http://ios.idup.club/categories/iOS%E5%BA%94%E7%94%A8%E7%A4%BA%E4%BE%8B/"/>
     
     
   </entry>
@@ -1010,7 +1010,7 @@
     <link href="http://ios.idup.club/basic/iOS-Overview/"/>
     <id>http://ios.idup.club/basic/iOS-Overview/</id>
     <published>2015-11-01T07:00:52.000Z</published>
-    <updated>2016-03-07T15:02:43.632Z</updated>
+    <updated>2016-03-20T05:49:57.257Z</updated>
     
     <content type="html">&lt;p&gt;iOS是一个苹果公司开发的运行于iPhone、iPad和iPod Touch等移动设备上的操作系统.当前最新版本是iOS 9.&lt;/p&gt;
 &lt;p&gt;iOS操作系统管理iOS设备硬件资源，并提供以SDK形式实现各类iOS应用软件的技术。&lt;/p&gt;
@@ -1102,7 +1102,7 @@
     
     </summary>
     
-      <category term="IOS基础" scheme="http://ios.idup.club/categories/IOS%E5%9F%BA%E7%A1%80/"/>
+      <category term="iOS基础" scheme="http://ios.idup.club/categories/iOS%E5%9F%BA%E7%A1%80/"/>
     
     
   </entry>
